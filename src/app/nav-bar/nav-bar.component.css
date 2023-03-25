@@ -1,0 +1,21 @@
+mat-toolbar {
+    background-color: rgb(38, 38, 38);
+    color: white;
+}
+
+nav {
+    width: 700px;
+    margin: auto;
+}
+
+nav>a {
+    color: rgba(255, 255, 255, 0.514);
+}
+
+nav>a:hover {
+    color: white;
+}
+
+.active {
+    background-color: rgb(80, 80, 80);
+}

@@ -1,0 +1,5 @@
+<mat-card *ngFor="let a of albums" style="max-width: 700px; margin: 1em auto;">
+    <mat-card-title style="margin: 0.2em 1em;">
+        <a routerLink="{{a.id}}">{{a.title}}</a>
+    </mat-card-title>
+</mat-card>
